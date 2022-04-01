@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ma/static/css/main.af54822a.css",
+    "main.js": "/ma/static/js/main.a0d19b44.js",
+    "static/media/goblin.png": "/ma/static/media/goblin.ec709d7d1532e417b41f.png",
+    "static/media/goblin3.jpeg": "/ma/static/media/goblin3.9da42058da32aed2ac4a.jpeg",
+    "static/media/goblin2.jpg": "/ma/static/media/goblin2.b8828c1ce40991735bf6.jpg",
+    "index.html": "/ma/index.html",
+    "main.af54822a.css.map": "/ma/static/css/main.af54822a.css.map",
+    "main.a0d19b44.js.map": "/ma/static/js/main.a0d19b44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af54822a.css",
+    "static/js/main.a0d19b44.js"
+  ]
+}
