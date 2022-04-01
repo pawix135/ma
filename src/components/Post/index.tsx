@@ -19,7 +19,7 @@ const Post: React.FunctionComponent<Props> = ({ post }) => {
           <h3 className="py-3 font-medium text-base md:text-xl lg:text-2xl">
             {post.title}
           </h3>
-          <p className="py-3 text-sm max-w-[500px] md:text-base lg:text-lg">
+          <p className="py-3 text-sm font-medium max-w-[500px] md:text-base lg:text-lg">
             {post.description}
           </p>
           {post.secondDescription && (
@@ -29,16 +29,21 @@ const Post: React.FunctionComponent<Props> = ({ post }) => {
           )}
           <a
             href={post.link}
+            target="_blank"
             className="mt-auto underline font-medium text-right md:text-left pt-5"
           >
             {post.linkText}
           </a>
         </div>
         <div className="flex flex-1 items-center justify-end w-full">
-          <img src={post.image} alt="avatar" />
+          <img
+            src={post.image}
+            alt="avatar"
+            className="shadow-[1px_2px_15px_2px_rgba(0,0,0,0.5)]"
+          />
         </div>
       </div>
-      <hr className="border border-black my-[50px]" />
+      <hr className="border border-black my-[75px]" />
     </section>
   );
 };

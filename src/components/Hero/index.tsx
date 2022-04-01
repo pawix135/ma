@@ -7,7 +7,7 @@ const Hero = () => {
         Hello, I’m <br />
         Mehmet Akfi.
       </h1>
-      <p className="flex-1 text-center text-[#606060] px-5 pt-5 md:self-end md:text-left md:-mb-[50px] lg:-mb-0 md:text-3xl text-2xl">
+      <p className="flex-1 text-center text-[#606060] px-5 pt-5 md:self-end md:text-left md:-mb-[50px] lg:-mb-0 md:text-2xl lg:text-3xl text-2xl">
         A senior-year design student who trying to specialize in 3D modeling &
         texturing.
       </p>

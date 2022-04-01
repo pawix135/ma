@@ -5,9 +5,11 @@ const Footer: React.FunctionComponent = () => {
         Mehmet Akif Karasu ⏤ 2022
       </span>
       <div className="flex flex-row gap-5 items-center">
-        <a href="#twitter">Twitter</a>
-        <a href="#twitter">Linkedin</a>
-        <a href="#twitter">Twitter</a>
+        <a href="https://github.com/pawix135">Github</a>
+        <a href="https://www.figma.com/community/file/829474905036527548">
+          Figma
+        </a>
+        <a href="#">Twitter</a>
       </div>
     </footer>
   );
