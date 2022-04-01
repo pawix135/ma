@@ -1,10 +1,12 @@
+import logo from "../../assets/site-logo.png";
+
 const Navbar: React.FunctionComponent = () => {
   return (
-    <header className="flex flex-row justify-between flex-wrap w-full">
+    <header className="flex flex-row justify-between items-center flex-wrap w-full py-3 px-3">
       <div>
-        <img src="" alt="" />
+        <img src={logo} alt="" />
       </div>
-      <div className="flex flex-row">
+      <div className="flex flex-row gap-5 items-center text-[16px]">
         <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#playground">Playgorund</a>
